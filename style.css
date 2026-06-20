@@ -1,0 +1,323 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header { 
+  background-color:#3F2147 ;
+  width: auto;
+  text-align: center;
+  padding: 35px;
+  text-align: center;
+  color: #fef4f4;
+  font-family: 'Lucida Handwriting', cursive;
+  text-shadow: #191a19 10px 7px 5px; 
+    }
+  
+Header a {
+  text-align: center;
+  color: #fef4f4;
+  font-size: 70px;
+  font-family: 'Lucida Handwriting', cursive;
+  font-weight: bold;
+  text-shadow: #191a19 10px 7px 5px; 
+  text-decoration: none;
+  color: #fef4f4;
+}
+
+nav {
+  background-color: #C98FD9;
+  justify-content: center; 
+  display: flex;
+
+    
+}
+
+nav ul {  
+  display: flex;    /* horizontal layout for links */
+  text-align: center;
+  text-decoration: none; 
+       /* space between items */
+}
+
+nav a {
+  text-decoration: none; /* remove underline */
+  color: #3F2147;
+  font-family:'Montserrat';
+  font-size: 19px;
+  margin: 9px;
+}
+
+nav a:hover {
+  color:#E1FFB3; /* change color on hover */
+}
+
+
+
+h1 {text-align: center;
+    font-size: 40px;
+    color: #fef4f4;
+    font-family:'Arvo';
+    background-color: #6C804D;
+    text-shadow: #191a19 5px 3px 5px;
+    margin: 0;
+    padding: 18px;
+}
+
+h2 {text-align: center;
+    font-size: 30px;
+    color: #3F2147;
+    font-family:'Geist';
+    text-decoration-color: #3F2147;
+    
+    
+}
+
+h3 {text-align: center;
+    font-size: 25px;
+    color: #3F2147;
+    font-family:'Geist';
+    text-decoration: underline;
+    text-decoration-color: 3F2147;
+    text-decoration-thickness: 3px;
+    
+}
+
+body {
+    background-color: #E8E3E2;
+    margin: 0;
+    padding: 0;
+    font-family:'Geist';
+  } 
+
+p {
+    text-align: center;
+    font-size: 22px;
+    color: #3F2147;
+    font-family:'Geist';
+    margin: 20px;
+}
+
+ul li {
+  padding: 10px; /* horizontal layout for list items */
+  margin:  10px;
+  list-style-type: none; /* Remove default list styling */
+  text-align: center;
+  font-size: 20px;
+  }
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
+  background-color: #FFF5B3;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.story-body {
+    background-color: #FFF5B3;
+    color:#3F2147;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+  
+
+
+
+.statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px; 
+    padding: 30px;
+    font-size: 21px;
+}
+
+.mission-body {
+    background-color: #FFF5B3;
+    color:#3F2147;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
+
+.Goals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 50px;
+}
+
+.Values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    padding: 50px;
+}
+
+.projectbodylist {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;/* horizontal layout for links */
+  gap: 1rem; 
+  text-align: center;
+  color:#3F2147;
+  background-color: #FFF5B3;
+  border-radius: 10px;
+
+  font-family: 'Geist';
+  font-size: 20px;    /* Remove default list styling */
+}
+
+.bodylist {
+  list-style-type: none; /* Remove default list styling */
+  margin: 0;
+  padding: 0;/* horizontal layout for links */
+  gap: 1rem; 
+  text-align: center;
+  color:#3F2147;
+  background-color: #C98FD9;
+  border-radius: 10px;
+
+  font-family: 'Geist';
+  font-size: 20px;    /* Remove default list styling */
+}
+
+
+
+.women {
+display: grid;
+grid-template-columns: repeat(auto-fit , minmax(300px, 1fr)); /* Responsive grid layout */
+gap: 70px;
+padding: 70px; 
+}
+
+.women-card {
+width: 100%;
+height: auto;
+background-color: #FFF5B3;
+
+background-position: center;
+text-align: center;
+padding: 10px;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+}
+
+.responsive-image {
+  width: 1fr;
+  height: 1fr;
+  border-radius: 10px;
+
+}
+
+
+
+.designer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px; 
+    padding: 50px;
+}
+
+.gabrielle-responsive-image {
+    border:#882c2c 15px solid;
+    border-radius: 10px;
+    padding: 20px;
+    width: 1fr;
+    height: 1fr;
+}
+.gabrielle-info {
+    height: auto; /* Allow height to adjust based on content */
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+h3.experience {
+
+    color: #3F2147;
+    padding: 10px;
+    margin-bottom: -20px;
+  
+}
+
+h3.internships {
+   
+    color: #0e0e0e;
+    padding: 10px;
+    margin-bottom: -20px;
+   
+}
+
+h3.education {
+    color: #0e0e0e;
+    padding: 10px;
+    margin-bottom: -20px;
+}
+
+h3.certifications {
+
+    color: #0e0e0e;
+    padding: 10px;
+    margin-bottom: -20px;
+   
+}
+
+h4.experience {
+    background-color:#882c2c7a;
+    color: #191a19;;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+h4.internships {
+    background-color:rgba(136, 44, 44, 0.48);
+    color: #191a19;;
+    text-align: center;
+    font-size: 20px;
+}
+
+h4.education {
+    background-color:rgba(136, 44, 44, 0.48);
+    color: #191a19;;
+    text-align: center;
+    font-size: 20px;
+}
+
+h4.certifications {
+    background-color:rgba(136, 44, 44, 0.48);
+    color: #191a19;;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
